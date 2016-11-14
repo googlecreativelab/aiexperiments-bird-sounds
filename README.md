@@ -11,7 +11,7 @@ This is not an official Google product.
 
 ## Credits
 
-Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library. The open-source code is available [here](https://github.com/googlecreativelab/).
+Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library.
 
 
 ## Front-end Installation
