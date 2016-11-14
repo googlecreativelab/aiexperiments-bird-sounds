@@ -6,14 +6,17 @@ BIRD SOUNDS
 
 ## Installation
 
-Install all npm modules required by package.json.
+Original audio metadata and, tsne data are not provided. Please visit Kyle McDonald's AudioNotebooks repo to generate tsne data.
 
-In terminal, run webpack-dev-server to run on localhost or webpack -p to build.
+Install all npm modules required by package.json. Install webpack and webpack-dev-server.
+
+In terminal, run webpack-dev-server to run on localhost:8080 or webpack -p to build.
+
 
 
 ## Contributors
 
-Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. The sounds are available in the Macaulay Library's [Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america). The open-source code is available [here](https://github.com/googlecreativelab/).
+Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library. The open-source code is available [here](https://github.com/googlecreativelab/). Check out more at [A.I. Experiments](https://aiexperiments.withgoogle.com/).
 
 Check out more at [A.I. Experiments](https://aiexperiments.withgoogle.com/).
 

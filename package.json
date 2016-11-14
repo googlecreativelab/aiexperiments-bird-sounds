@@ -1,0 +1,39 @@
+{
+  "name": "birds",
+  "version": "1.0.0",
+  "description": "Bird Sounds",
+  "main": "build/Main.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/googlecreativelab/aiexperiments-bird-sounds"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "domready": "^1.0.8",
+    "image-progress": "^1.0.3",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "rtree": "^1.4.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "tone": "^0.8.0",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "pixi.js": "^3.0.11",
+    "stats.js": "^0.16.0",
+    "tween.js": "^16.3.4",
+    "webpack-dashboard": "0.0.1"
+  },
+  "browser": {
+    "fs": false
+  }
+}

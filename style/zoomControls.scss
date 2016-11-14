@@ -1,0 +1,54 @@
+$desktop_height: 105px;
+$desktop_zoomWidth: 50px;
+$desktop_margin: 20px;
+
+#zoom {
+	position:absolute;
+	right:$desktop_margin;
+	bottom:$desktop_margin;
+	flex-direction:column;
+	justify-content: space-between;
+	height:$desktop_height;
+	width:$desktop_zoomWidth;
+	padding: 0px;
+	display: none;
+}
+
+#zoom > button {
+	width:50px;
+	height:49px;
+	border:none;
+    outline: none;
+    cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid rgba(153, 153, 153, 0.33);
+}
+#zoom > #plusIcon {
+	background: url(/img/plus.svg);
+	background-color:#FFFFFF;
+}
+
+#zoom > #minusIcon {
+	background: url(/img/minus.svg);
+	background-color:#FFFFFF;
+}
+
+/* desktop */
+@media all {
+	#zoom {
+		display: none;
+	}
+
+	#zoom.show {
+		display: flex;
+	}
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (max-width: 400px) {
+	#zoom {
+		display: none;
+	}
+	#zoom.show {
+		display: none;
+	}
+}

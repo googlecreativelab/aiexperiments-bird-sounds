@@ -1,0 +1,41 @@
+$height :125px;
+$width : 645px;
+$margin: 20px;
+$birdImageSize : 46px;
+
+#birdLoader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%)  translateY(-50%);
+
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+	pointer-events: none;
+
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+#birdLoader.show {
+	display: flex;
+}
+
+#birdLoader > div {
+	padding-left: 20px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	color: black;
+
+}
+
+#birdLoader > canvas {
+	width: $birdImageSize;
+	height: $birdImageSize;
+	background-color: white;
+}

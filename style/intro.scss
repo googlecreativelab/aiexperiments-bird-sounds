@@ -1,0 +1,170 @@
+@import "responsiveFont";
+
+#intro {
+	display:block;
+}
+#intro.hide {
+	display:none;
+}
+
+#introBlock {
+	position: absolute;
+	top:40%;
+	left: 50%;
+	color:#424141;
+	font-family: 'Montserrat', sans-serif;
+	transform: translateX(-50%) translateY(-50%);
+	padding: 10px;
+	text-align: center;
+	min-width: 300px;
+}
+
+#introBlock > .header {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+
+#introBlock > hr {
+	display:inline-block;
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid #000;
+	margin-top:20px;
+	width:50px;
+}
+
+#introBlock > p {
+	font-family: sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 180%;
+	min-width:300px;
+	max-width:400px;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#introBlock > .startLink {
+	visibility:hidden;
+	display:inline-block;
+	color: #e8e6f2;
+	line-height: 22px;
+	white-space: nowrap;
+	background-color:#18BABA;
+	width:250px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 5px;
+	margin: 12px;
+	border: 1px solid #18BABA; 
+}
+
+#introBlock > .startLink.show {
+	visibility:visible;
+}
+
+
+#introBlock > .aboutLink {
+	visibility:hidden;
+	display:inline-block;
+	color: #18BABA;
+	line-height: 22px;
+	white-space: nowrap;
+	// background-color:#18BABA;
+	width:250px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 5px;
+	border: 1px solid #18BABA; 
+}
+
+#introBlock > .aboutLink.show {
+	visibility:visible;
+}
+
+
+#legal {
+	opacity: 1.0;
+	position:absolute;
+	right: 20px;
+	bottom: 21px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+#badges {
+	opacity: 1.0;
+	position:absolute;
+	display: flex;
+	left: 10px;
+	bottom: 20px;
+}
+
+#badges > .badgeAI {
+	background-image: url("/img/badgeAI_master.svg");
+	background-repeat: no-repeat;
+}
+
+#badges > .pipe {
+	border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+#badges > .badgeFriends {
+	background-image: url("/img/badgeFriends_master.svg");
+	background-repeat: no-repeat;
+}
+
+/* desktop */
+@media all {
+	#badges > .badgeAI {
+		width: 110px;
+		height: 60px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+
+	#badges > .pipe {
+	border-right: 1px solid rgba(0,0,0,0.5);
+	}
+
+	#badges > .badgeFriends {
+		width: 110px;
+		height: 60px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+}
+
+/* phones */
+@media (max-width:380px) { 
+	#badges > .badgeAI {
+		width: 73px;
+		height: 40px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+
+	#badges > .pipe {
+	border-right: 1px solid rgba(0,0,0,0.5);
+	}
+
+	#badges > .badgeFriends {
+		width: 73px;
+		height: 40px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+}

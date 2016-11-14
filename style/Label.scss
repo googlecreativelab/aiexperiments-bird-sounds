@@ -1,0 +1,44 @@
+$height : 60px;
+$width : 208px;
+$margin: 7px;
+$birdImageSize : $height - $margin * 2;
+
+#birdLabel {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: $width;
+	height: $height;
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+	pointer-events: none;
+	display:none;
+}
+
+#birdLabel.show {
+	display:block;
+}
+
+#birdLabel > canvas {
+	width: $birdImageSize;
+	height: $birdImageSize;
+	position: absolute;
+	right: $margin;
+	top: $margin;
+	background-color: white;
+}
+
+#birdLabel > div {
+	position: absolute;
+	top: $margin;
+	left: $margin;
+	width: $width - $height;
+	height: $birdImageSize;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: black;
+}

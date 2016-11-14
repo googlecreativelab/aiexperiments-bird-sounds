@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bird Sounds</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono:400,500" rel="stylesheet">
+	<link type="text/css" href="./style/preload.css" rel="stylesheet"/>
+	<script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+</head>
+<body>
+	<div id="birds">
+		<div id="grid"></div>
+		<div id="dragger"></div>
+		<div id="birdLabel">
+			<canvas id="birdCanvas"></canvas>
+			<div id="birdName"></div>
+		</div>
+
+		<div id="birdLoader">
+			<canvas id="birdLoaderCanvas"></canvas>
+			<div id="birdLoaderText">LOADING 0 OF 100 BIRD SOUNDS</div>
+		</div>
+
+		<div id="filter">
+			<div class="input-wrapper">
+				<input type="text" placeholder="SEARCH">
+			</div>
+			<div class="searchButton"></div>
+			<div class="clearButton"></div>
+			<div class="tags"></div>
+		</div>
+		<div id="zoom">
+			<button id="plusIcon"></button>
+			<button id="minusIcon"></button>
+		</div>
+		<button id="infoIcon"></button>
+		<div id="cover"></div>
+		<div id="about" class="about" >
+			<div class="clearButton"></div>
+			<div class="container" class="description">
+				<h1>BIRD SOUNDS</h1>
+				<div class="videoContainer">
+					<div class="drumsVideo" id="drumsVideo"></div>
+					<img class="playButton" width="90" height="90" src="./img/play_icon_master.svg">
+					<img class="thumbnail" id="thumbnail" src="https://img.youtube.com/vi/YTR21os8gTA/0.jpg" width="600"/>
+				</div>
+				<p class="description">
+					Built by Kyle McDonald, Manny Tan, Yotam Mann, and friends at Google Creative Lab. Thanks to <a href="http://www.birds.cornell.edu/Page.aspx?pid=1478" target="_blank">Cornell Lab of Ornithology</a> for their support. <a href="http://macaulaylibrary.org/guide/audio/essential-set-for-north-america" target="_blank">The Essential Set for North America</a> sounds are provided by the Macaulay Library. The open-source code is available <a href="https://github.com/googlecreativelab/" target="_blank">here</a>. Check out more at <a href="https://aiexperiments.withgoogle.com/" target="_blank">A.I. Experiments</a>.
+				</p>
+			</div>
+		</div>
+		<div id="intro">
+			<div id="introBlock">
+				<div class="header">BIRD SOUNDS</div>
+				<hr></hr>
+				<p>Thousands of bird sounds visualized using machine learning.</p>
+				<p><div id="startLink" class="startLink">EXPLORE</div></p>
+				<p><div id="aboutLink" class="aboutLink">ABOUT THIS PROJECT</div></p>
+			</div>
+			<div id="badges">
+				<div class="badgeAI" style="cursor: pointer;" onclick="window.open('https://aiexperiments.withgoogle.com', '_blank')"></div>
+				<div class="pipe"></div>
+				<div class="badgeFriends"></div>
+			</div>
+			<div id="legal">
+				<a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a> &amp; <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+			</div>
+		</div>
+		<div id="reorient">
+			<div class="container"><div class="rotatePhone"></div>Please rotate your phone to portrait mode.</div>
+		</div>
+		<div id="noGL">
+			<div class="container">Oops, sorry for the tech trouble. For the best experience, view in <a href="https://www.google.com/chrome" target="_blank">Chrome browser</a>.</div>
+		</div>
+		<div id="noMobile">
+			<div class="container">Oops. Since this experiment loads over 14,000 bird sounds, you'll need to view it on a desktop computer.</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./build/Main.js"></script>
+</body>
+</html>
