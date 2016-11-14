@@ -13,18 +13,22 @@ This is not an official Google product.
 
 Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library. The open-source code is available [here](https://github.com/googlecreativelab/).
 
-## Installation
 
-Bird sounds audio are not included. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library.
+## Front-end Installation
 
-Install all npm modules required by package.json. Install webpack and webpack-dev-server.
+To build the client-side javascript, first install [node](https://nodejs.org) and [webpack](https://webpack.github.io/). Then you can install of the dependencies and build the files by typing the following in the terminal: 
 
-In terminal, run webpack-dev-server to run on localhost:8080 or webpack -p to build.
+```bash
+npm install
+webpack -p
+```
 
+## t-SNE
+
+To generate a t-SNE with your own audio, check out [this repository](https://github.com/kylemcdonald/AudioNotebooks) from Kyle McDonald and the [Infinite Drum Machine](https://github.com/googlecreativelab/aiexperiments-drum-machine), which shares a lot of the same techniques. 
 
 ## Note
 Third party directories may have different (non-Apache 2.0) licenses.
-
 
 ## License
 
