@@ -1,6 +1,17 @@
-## Synopsis
+## Bird Sounds
+Thousands of bird sounds, visualized using machine learning.
 
-BIRD SOUNDS
+## About
+
+Bird sounds vary widely. This experiment uses machine learning to organize thousands of bird sounds. The computer wasn’t given tags or the birds’ names – only the audio. Using a technique called t-SNE, the computer created this map, where similar sounds are placed closer together.
+
+[https://aiexperiments.withgoogle.com/bird-sounds](https://aiexperiments.withgoogle.com/bird-sounds)
+
+This is not an official Google product.
+
+## Credits
+
+Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library. The open-source code is available [here](https://github.com/googlecreativelab/).
 
 ## Installation
 
@@ -10,13 +21,6 @@ Install all npm modules required by package.json. Install webpack and webpack-de
 
 In terminal, run webpack-dev-server to run on localhost:8080 or webpack -p to build.
 
-
-
-## Contributors
-
-Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and friends at [Google Creative Lab](https://github.com/googlecreativelab/). Thanks to [Cornell Lab of Ornithology](http://www.birds.cornell.edu/Page.aspx?pid=1478) for their support. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library. The open-source code is available [here](https://github.com/googlecreativelab/). Check out more at [A.I. Experiments](https://aiexperiments.withgoogle.com/).
-
-Check out more at [A.I. Experiments](https://aiexperiments.withgoogle.com/).
 
 ## Note
 Third party directories may have different (non-Apache 2.0) licenses.
