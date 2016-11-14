@@ -2,11 +2,9 @@
 
 BIRD SOUNDS
 
-...
-
 ## Installation
 
-Original audio metadata and, tsne data are not provided. Please visit Kyle McDonald's AudioNotebooks repo to generate tsne data.
+Bird sounds audio are not included. [The Essential Set for North America](http://macaulaylibrary.org/guide/audio/essential-set-for-north-america) sounds are provided by the Macaulay Library.
 
 Install all npm modules required by package.json. Install webpack and webpack-dev-server.
 
