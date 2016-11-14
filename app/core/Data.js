@@ -43,7 +43,7 @@ var birdSuggestions = require("raw!data/autosuggest_bird.txt");
 }());
 
 var Data = module.exports = {
-	videoId: 'YTR21os8gTA',
+	videoId: '26IEFT6wJtI',
 	totalPoints: birdCoords.length,
 	filterStates:null,
 	filteredList: [],
