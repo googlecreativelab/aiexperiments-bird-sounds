@@ -38,7 +38,18 @@ var Config = module.exports = {
 	draggerSize:32*2,//48;
 	audioChunks : 20, // the number of files the audio is split into
 	emptySuggestions:[
-
+		"DUCK",
+		"SPARROW",
+		"HUMMINGBIRD",
+		"GOLDFINCH",
+		"OWL",
+		"WREN",
+		"HAWK",
+		"WARBLER",
+		"PHOEBE",
+		"WAXWING",
+		"GNATCATCHER",
+		"GULL"
 	],
 	birdFFTSpriteSheet: "./img/spritesheet_new.png",
 	domain: "./", 
