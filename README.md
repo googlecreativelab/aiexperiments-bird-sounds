@@ -16,16 +16,23 @@ Built by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://g
 
 ## Front-end Installation
 
-To build the client-side javascript, first install [node](https://nodejs.org) and [webpack](https://webpack.github.io/). Then you can install of the dependencies and build the files by typing the following in the terminal: 
+To run the client-side javascript, first install [node](https://nodejs.org). Then you can install of the dependencies and run the files locally by typing the following in the terminal:
 
-```bash
-npm install
-webpack -p
 ```
+npm install && npm start
+```
+
+### Build
+To build the client-side javascript after you have installed the dependences type the following in the terminal. This will output to a folder called `/build` within the projects directory
+
+```
+npm run build
+```
+
 
 ## t-SNE
 
-To generate a t-SNE with your own audio, check out [this repository](https://github.com/kylemcdonald/AudioNotebooks) from Kyle McDonald and the [Infinite Drum Machine](https://github.com/googlecreativelab/aiexperiments-drum-machine), which shares a lot of the same techniques. 
+To generate a t-SNE with your own audio, check out [this repository](https://github.com/kylemcdonald/AudioNotebooks) from Kyle McDonald and the [Infinite Drum Machine](https://github.com/googlecreativelab/aiexperiments-drum-machine), which shares a lot of the same techniques.
 
 ## Note
 Third party directories may have different (non-Apache 2.0) licenses.
@@ -45,9 +52,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
-
-
-
-
