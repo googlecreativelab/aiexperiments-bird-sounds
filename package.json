@@ -31,7 +31,8 @@
     "pixi.js": "^3.0.11",
     "stats.js": "^0.16.0",
     "tween.js": "^16.3.4",
-    "webpack-dashboard": "0.0.1"
+    "webpack-dashboard": "0.0.1",
+    "webpack-dev-server": "1.16.2"
   },
   "browser": {
     "fs": false
