@@ -21,7 +21,7 @@ webpack -p to compile builds
 */
 var webpack = require("webpack");
 
-var PROD = JSON.parse(process.env.PROD_ENV || '0');
+var PROD = process.env.NODE_ENV === 'production';
 
 module.exports = {
 	"context": __dirname,
@@ -36,26 +36,31 @@ module.exports = {
 	resolve: {
 		root: __dirname,
 		modulesDirectories : [
-		"node_modules", 
-		"third_party/", 
+		"node_modules",
+		"third_party/",
 		"app",
 		"node_modules/tone/"
 		],
 	},
 	plugins: PROD ? [
-		new webpack.optimize.UglifyJsPlugin({minimize: true}),
+		new webpack.optimize.UglifyJsPlugin({
+			compress: {
+				warnings: false, // ...but do not show warnings in the console (there is a lot of them)
+			}
+		}),
 	] : [],
 	module: {
 		preLoaders: [
 			{
 				test: /\.js$/,
-				exclude: [/node_modules/],
+				exclude: /node_modules/,
 				loader: 'jshint-loader'
 			}
 		],
 		loaders: [
 			{
 				test: /\.scss$/,
+				exclude: /node_modules/,
 				loader: "style!css!autoprefixer!sass"
 			},
 			{
@@ -75,6 +80,7 @@ module.exports = {
 	node: {
 		fs: 'empty',
 	},
+	target: 'web',
 	watch: true
 
 };
