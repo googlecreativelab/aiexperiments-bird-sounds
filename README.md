@@ -22,6 +22,8 @@ To run the client-side javascript, first install [node](https://nodejs.org). The
 npm install && npm start
 ```
 
+Then open your internet browser and go to [`http://localhost:8080/`](http://localhost:8080/)
+
 ### Build
 To build the client-side javascript after you have installed the dependences type the following in the terminal. This will output to a folder called `/build` within the projects directory
 
