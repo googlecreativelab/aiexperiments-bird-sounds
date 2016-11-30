@@ -16,7 +16,7 @@ limitations under the License.
 
 var BoilerPlate = require("../Boilerplate");
 var Data = require("../core/Data");
-var TWEEN = require("Tween.js");
+var TWEEN = require("tween.js");
 var Config = require("../core/Config");
 
 var Dragger = module.exports = function() {
@@ -105,7 +105,7 @@ var Dragger = module.exports = function() {
 	this.getContainer = function() {
 		return scope.container;
 	};
-	
+
 	this.getPosition = function() {
 		return scope.container;
 	};

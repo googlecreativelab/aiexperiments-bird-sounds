@@ -21,7 +21,7 @@ var gridCSS = require("../../style/grid.scss");
 var Data = require("../core/Data");
 var Config = require("../core/Config");
 var Stats = require("stats.js");
-var TWEEN = require("Tween.js");
+var TWEEN = require("tween.js");
 
 var Grid = module.exports = function() {
 
