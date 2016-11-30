@@ -15,7 +15,6 @@
     "domready": "^1.0.8",
     "image-progress": "^1.0.3",
     "pixi.js": "^3.0.11",
-    "rtree": "^1.4.2",
     "stats.js": "^0.16.0",
     "tone": "^0.8.0",
     "tween.js": "^16.3.4"
