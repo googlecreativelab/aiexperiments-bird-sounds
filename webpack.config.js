@@ -19,27 +19,27 @@ Terminal Commands:
 webpack-dev-server to run on localhost:8080
 webpack -p to compile builds
 */
-var webpack = require("webpack");
+var webpack = require('webpack');
 
 var PROD = process.env.NODE_ENV === 'production';
 
 module.exports = {
-	"context": __dirname,
+	context: __dirname,
 	entry: {
-		"Main": "app/Main",
+		Main: 'app/Main',
 	},
 	output: {
-		filename: "./build/[name].js",
-		chunkFilename: "./build/[id].js",
-		sourceMapFilename : "[file].map",
+		filename: './build/[name].js',
+		chunkFilename: './build/[id].js',
+		sourceMapFilename : '[file].map',
 	},
 	resolve: {
 		root: __dirname,
 		modulesDirectories : [
-		"node_modules",
-		"third_party/",
-		"app",
-		"node_modules/tone/"
+			'node_modules',
+			'third_party/',
+			'app',
+			'node_modules/tone/'
 		],
 	},
 	plugins: PROD ? [
@@ -61,19 +61,19 @@ module.exports = {
 			{
 				test: /\.scss$/,
 				exclude: /node_modules/,
-				loader: "style!css!autoprefixer!sass"
+				loader: 'style!css!autoprefixer!sass'
 			},
 			{
 				test: /\.json$/,
-				loader: "json-loader"
+				loader: 'json-loader'
 			},
 			{
 				test: /\.(png|gif)$/,
-				loader: "url-loader",
+				loader: 'url-loader',
 			},
 			{
 				test   : /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-				loader : "file-loader?name=images/font/[hash].[ext]"
+				loader : 'file-loader?name=images/font/[hash].[ext]'
 			}
 		]
 	},
