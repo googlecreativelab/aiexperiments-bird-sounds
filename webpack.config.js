@@ -81,6 +81,6 @@ module.exports = {
 		fs: 'empty',
 	},
 	target: 'web',
-	watch: true
+	watch: !PROD
 
 };
