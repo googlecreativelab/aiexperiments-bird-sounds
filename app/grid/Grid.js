@@ -13,15 +13,16 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+require("../../style/grid.scss");
+
+var PIXI = require("pixi.js");
+var Stats = require("stats.js");
+var TWEEN = require("tween.js");
 
 var BoilerPlate = require("../BoilerPlate");
 var Dragger = require("./Dragger");
-var PIXI = require("pixi.js");
-var gridCSS = require("../../style/grid.scss");
 var Data = require("../core/Data");
 var Config = require("../core/Config");
-var Stats = require("stats.js");
-var TWEEN = require("tween.js");
 
 var Grid = module.exports = function() {
 

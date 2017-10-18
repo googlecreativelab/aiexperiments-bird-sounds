@@ -14,8 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+require("../../style/zoomControls.scss");
+
 var BoilerPlate = require("../BoilerPlate");
-var zoomCSS = require("../../style/ZoomControls.scss");
 
 var ZoomControls = module.exports = function() {
 	var scope = this;

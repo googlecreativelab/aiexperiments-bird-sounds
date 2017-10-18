@@ -14,7 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var cssSequencer = require("../../style/loader.scss");
+require("../../style/loader.scss");
+
 var birdCoords = require("raw!data/tsne/grid.30.30.2d.sorted.tsv");
 var filenames = require("raw!data/names.txt");
 var Config = require("./Config.js");

@@ -24,7 +24,7 @@ require(["domready"], function(domReady){
 
 		document.onselectstart = function () { return false; };
 
-		require(["Birds"], function(Birds){
+		require(["./Birds"], function(Birds){
 
 			var onBadges = function (event) {
 				event.stopPropagation();

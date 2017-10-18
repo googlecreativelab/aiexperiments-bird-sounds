@@ -14,8 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+require("../../style/filter.scss");
+
 var BoilerPlate = require("../BoilerPlate");
-var filterCSS = require("../../style/filter.scss");
 var Config = require("./Config.js");
 var Filter = module.exports = function() {
 

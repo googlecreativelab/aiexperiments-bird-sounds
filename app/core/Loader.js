@@ -14,11 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+require("style/loader.scss");
+
+var ImageLoader = require("image-progress");
+
 var BoilerPlate = require("../BoilerPlate");
 var Data = require("./Data");
 var Config = require("./Config");
-var loaderCSS = require("style/loader.scss");
-var ImageLoader = require("image-progress");
 
 var Loader = module.exports = function(image, audio) {
 

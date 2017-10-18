@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var Config = module.exports = {
+module.exports = {
 	isStatsEnabled: false,
 	isDebugEnabled: false,
 	isAudioDisabled: false,

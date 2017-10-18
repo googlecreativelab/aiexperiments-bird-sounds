@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-define(["style/label.scss", "image-progress", "raw!data/image_offset.txt", "raw!data/names.txt", "core/Config"], 
+define(["../../style/Label.scss", "image-progress", "raw!data/image_offset.txt", "raw!data/names.txt", "./Config"], 
 	function (pictureStyle, ImageLoader, imageOffsets, filenames, Config) {
 
 	(function(){
