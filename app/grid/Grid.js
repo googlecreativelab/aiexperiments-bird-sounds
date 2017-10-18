@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var BoilerPlate = require("../Boilerplate");
+var BoilerPlate = require("../BoilerPlate");
 var Dragger = require("./Dragger");
 var PIXI = require("pixi.js");
 var gridCSS = require("../../style/grid.scss");

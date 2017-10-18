@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var BoilerPlate = require("../Boilerplate");
+var BoilerPlate = require("../BoilerPlate");
 var Data = require("./Data");
 var Config = require("./Config");
 var loaderCSS = require("style/loader.scss");
